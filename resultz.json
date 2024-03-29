@@ -4,8 +4,8 @@
   "numFailedTestSuites": 0,
   "numPendingTestSuites": 0,
   "numTotalTests": 9,
-  "numPassedTests": 0,
-  "numFailedTests": 9,
+  "numPassedTests": 8,
+  "numFailedTests": 1,
   "numPendingTests": 0,
   "numTodoTests": 0,
   "startTime": 1711666152011,
@@ -18,80 +18,50 @@
             ""
           ],
           "fullName": " App.jsxe QueryClientProvider eklenmiş",
-          "status": "failed",
+          "status": "passed",
           "title": "App.jsxe QueryClientProvider eklenmiş",
-          "duration": 35,
-          "failureMessages": [
-            "expected '/*eslint-disablejsx-a11y/anchor-is-va…' to include '<QueryClientProvider'"
-          ],
-          "location": {
-            "line": 50,
-            "column": 19
-          }
+          "duration": 40,
+          "failureMessages": []
         },
         {
           "ancestorTitles": [
             ""
           ],
           "fullName": " SideBar componentinde useEffect kaldırılmış",
-          "status": "failed",
+          "status": "passed",
           "title": "SideBar componentinde useEffect kaldırılmış",
-          "duration": 14,
-          "failureMessages": [
-            "expected 'importaxiosfrom\\'axios\\';importReact,…' to not include 'useEffect(()=>{'"
-          ],
-          "location": {
-            "line": 54,
-            "column": 27
-          }
+          "duration": 12,
+          "failureMessages": []
         },
         {
           "ancestorTitles": [
             ""
           ],
           "fullName": " Contact componentinde useEffect kaldırılmış",
-          "status": "failed",
+          "status": "passed",
           "title": "Contact componentinde useEffect kaldırılmış",
-          "duration": 14,
-          "failureMessages": [
-            "expected 'importaxiosfrom\\'axios\\';importReact,…' to not include 'useEffect(()=>{'"
-          ],
-          "location": {
-            "line": 58,
-            "column": 27
-          }
+          "duration": 10,
+          "failureMessages": []
         },
         {
           "ancestorTitles": [
             ""
           ],
           "fullName": " Contactlar listeleniyor",
-          "status": "failed",
+          "status": "passed",
           "title": "Contactlar listeleniyor",
-          "duration": 10,
-          "failureMessages": [
-            "expected 'Once tanStackQueryi ekleyin ve useEff…' to be 'Implemented' // Object.is equality"
-          ],
-          "location": {
-            "line": 62,
-            "column": 25
-          }
+          "duration": 54,
+          "failureMessages": []
         },
         {
           "ancestorTitles": [
             ""
           ],
           "fullName": " New Butonu Çalışıyor",
-          "status": "failed",
+          "status": "passed",
           "title": "New Butonu Çalışıyor",
-          "duration": 6,
-          "failureMessages": [
-            "expected 'Once tanStackQueryi ekleyin ve useEff…' to be 'Implemented' // Object.is equality"
-          ],
-          "location": {
-            "line": 68,
-            "column": 25
-          }
+          "duration": 199,
+          "failureMessages": []
         },
         {
           "ancestorTitles": [
@@ -100,13 +70,13 @@
           "fullName": " Yeni kullanıcı kayıt ediliyor",
           "status": "failed",
           "title": "Yeni kullanıcı kayıt ediliyor",
-          "duration": 6,
+          "duration": 2133,
           "failureMessages": [
-            "expected 'Once tanStackQueryi ekleyin ve useEff…' to be 'Implemented' // Object.is equality"
+            "Unable to find an element with the text: Emre Sahiner. This could be because the text is broken up by multiple elements. In this case, you can provide a function for your text matcher to make your matcher more flexible.\n\nIgnored nodes: comments, script, style\n\u001b[36m<body>\u001b[39m\n  \u001b[36m<div>\u001b[39m\n    \u001b[36m<div\u001b[39m\n      \u001b[33mid\u001b[39m=\u001b[32m\"sidebar\"\u001b[39m\n    \u001b[36m>\u001b[39m\n      \u001b[36m<h1>\u001b[39m\n        \u001b[0mWiTech Contacts\u001b[0m\n      \u001b[36m</h1>\u001b[39m\n      \u001b[36m<div>\u001b[39m\n        \u001b[36m<a\u001b[39m\n          \u001b[33mhref\u001b[39m=\u001b[32m\"/contacts/new\"\u001b[39m\n        \u001b[36m>\u001b[39m\n          \u001b[36m<button\u001b[39m\n            \u001b[33mtype\u001b[39m=\u001b[32m\"submit\"\u001b[39m\n          \u001b[36m>\u001b[39m\n            \u001b[0mNew\u001b[0m\n          \u001b[36m</button>\u001b[39m\n        \u001b[36m</a>\u001b[39m\n        \u001b[36m<a\u001b[39m\n          \u001b[33mhref\u001b[39m=\u001b[32m\"/\"\u001b[39m\n        \u001b[36m>\u001b[39m\n          \u001b[36m<button\u001b[39m\n            \u001b[33mtype\u001b[39m=\u001b[32m\"submit\"\u001b[39m\n          \u001b[36m>\u001b[39m\n            \u001b[0mHome\u001b[0m\n          \u001b[36m</button>\u001b[39m\n        \u001b[36m</a>\u001b[39m\n      \u001b[36m</div>\u001b[39m\n      \u001b[36m<nav>\u001b[39m\n        \u001b[36m<ul>\u001b[39m\n          \u001b[36m<li>\u001b[39m\n            \u001b[36m<a\u001b[39m\n              \u001b[33mclass\u001b[39m=\u001b[32m\"\"\u001b[39m\n              \u001b[33mdata-testid\u001b[39m=\u001b[32m\"contact\"\u001b[39m\n              \u001b[33mhref\u001b[39m=\u001b[32m\"/contacts/3\"\u001b[39m\n            \u001b[36m>\u001b[39m\n              \u001b[0mHarriet Wisozk IV\u001b[0m\n              \u001b[0m \u001b[0m\n              \u001b[0mVeum\u001b[0m\n              \u001b[0m \u001b[0m\n            \u001b[36m</a>\u001b[39m\n          \u001b[36m</li>\u001b[39m\n          \u001b[36m<li>\u001b[39m\n            \u001b[36m<a\u001b[39m\n              \u001b[33mclass\u001b[39m=\u001b[32m\"\"\u001b[39m\n              \u001b[33mdata-testid\u001b[39m=\u001b[32m\"contact\"\u001b[39m\n              \u001b[33mhref\u001b[39m=\u001b[32m\"/contacts/6\"\u001b[39m\n            \u001b[36m>\u001b[39m\n              \u001b[0mMrs. Adrienne Rempel Jr.\u001b[0m\n              \u001b[0m \u001b[0m\n              \u001b[0mBosco\u001b[0m\n              \u001b[0m \u001b[0m\n            \u001b[36m</a>\u001b[39m\n          \u001b[36m</li>\u001b[39m\n          \u001b[36m<li>\u001b[39m\n            \u001b[36m<a\u001b[39m\n              \u001b[33mclass\u001b[39m=\u001b[32m\"\"\u001b[39m\n              \u001b[33mdata-testid\u001b[39m=\u001b[32m\"contact\"\u001b[39m\n              \u001b[33mhref\u001b[39m=\u001b[32m\"/contacts/8\"\u001b[39m\n            \u001b[36m>\u001b[39m\n              \u001b[0mInez Raynor\u001b[0m\n              \u001b[0m \u001b[0m\n              \u001b[0mToy\u001b[0m\n              \u001b[0m \u001b[0m\n            \u001b[36m</a>\u001b[39m\n          \u001b[36m</li>\u001b[39m\n          \u001b[36m<li>\u001b[39m\n            \u001b[36m<a\u001b[39m\n              \u001b[33mclass\u001b[39m=\u001b[32m\"\"\u001b[39m\n              \u001b[33mdata-testid\u001b[39m=\u001b[32m\"contact\"\u001b[39m\n              \u001b[33mhref\u001b[39m=\u001b[32m\"/contacts/9\"\u001b[39m\n            \u001b[36m>\u001b[39m\n              \u001b[0mJames Schumm\u001b[0m\n              \u001b[0m \u001b[0m\n              \u001b[0mWeimann\u001b[0m\n              \u001b[0m \u001b[0m\n            \u001b[36m</a>\u001b[39m\n          \u001b[36m</li>\u001b[39m\n          \u001b[36m<li>\u001b[39m\n            \u001b[36m<a\u001b[39m\n              \u001b[33mclass\u001b[39m=\u001b[32m\"\"\u001b[39m\n              \u001b[33mdata-testid\u001b[39m=\u001b[32m\"contact\"\u001b[39m\n              \u001b[33mhref\u001b[39m=\u001b[32m\"/contacts/10\"\u001b[39m\n            \u001b[36m>\u001b[39m\n              \u001b[0mClaudia Auer\u001b[0m\n              \u001b[0m \u001b[0m\n              \u001b[0mPredovic\u001b[0m\n              \u001b[0m \u001b[0m\n            \u001b[36m</a>\u001b[39m\n          \u001b[36m</li>\u001b[39m\n        \u001b[36m</ul>\u001b[39m\n      \u001b[36m</nav>\u001b[39m\n    \u001b[36m</div>\u001b[39m\n    \u001b[36m<div\u001b[39m\n      \u001b[33mid\u001b[39m=\u001b[32m\"detail\"\u001b[39m\n    \u001b[36m>\u001b[39m\n      \u001b[36m<p\u001b[39m\n        \u001b[33mid\u001b[39m=\u001b[32m\"zero-state\"\u001b[39m\n      \u001b[36m>\u001b[39m\n        \u001b[0mWelcome to WiTech Contacts\u001b[0m\n      \u001b[36m</p>\u001b[39m\n    \u001b[36m</div>\u001b[39m\n  \u001b[36m</div>\u001b[39m\n\u001b[36m</body>\u001b[39m\n\nIgnored nodes: comments, script, style\n\u001b[36m<body>\u001b[39m\n  \u001b[36m<div>\u001b[39m\n    \u001b[36m<div\u001b[39m\n      \u001b[33mid\u001b[39m=\u001b[32m\"sidebar\"\u001b[39m\n    \u001b[36m>\u001b[39m\n      \u001b[36m<h1>\u001b[39m\n        \u001b[0mWiTech Contacts\u001b[0m\n      \u001b[36m</h1>\u001b[39m\n      \u001b[36m<div>\u001b[39m\n        \u001b[36m<a\u001b[39m\n          \u001b[33mhref\u001b[39m=\u001b[32m\"/contacts/new\"\u001b[39m\n        \u001b[36m>\u001b[39m\n          \u001b[36m<button\u001b[39m\n            \u001b[33mtype\u001b[39m=\u001b[32m\"submit\"\u001b[39m\n          \u001b[36m>\u001b[39m\n            \u001b[0mNew\u001b[0m\n          \u001b[36m</button>\u001b[39m\n        \u001b[36m</a>\u001b[39m\n        \u001b[36m<a\u001b[39m\n          \u001b[33mhref\u001b[39m=\u001b[32m\"/\"\u001b[39m\n        \u001b[36m>\u001b[39m\n          \u001b[36m<button\u001b[39m\n            \u001b[33mtype\u001b[39m=\u001b[32m\"submit\"\u001b[39m\n          \u001b[36m>\u001b[39m\n            \u001b[0mHome\u001b[0m\n          \u001b[36m</button>\u001b[39m\n        \u001b[36m</a>\u001b[39m\n      \u001b[36m</div>\u001b[39m\n      \u001b[36m<nav>\u001b[39m\n        \u001b[36m<ul>\u001b[39m\n          \u001b[36m<li>\u001b[39m\n            \u001b[36m<a\u001b[39m\n              \u001b[33mclass\u001b[39m=\u001b[32m\"\"\u001b[39m\n              \u001b[33mdata-testid\u001b[39m=\u001b[32m\"contact\"\u001b[39m\n              \u001b[33mhref\u001b[39m=\u001b[32m\"/contacts/3\"\u001b[39m\n            \u001b[36m>\u001b[39m\n              \u001b[0mHarriet Wisozk IV\u001b[0m\n              \u001b[0m \u001b[0m\n              \u001b[0mVeum\u001b[0m\n              \u001b[0m \u001b[0m\n            \u001b[36m</a>\u001b[39m\n          \u001b[36m</li>\u001b[39m\n          \u001b[36m<li>\u001b[39m\n            \u001b[36m<a\u001b[39m\n              \u001b[33mclass\u001b[39m=\u001b[32m\"\"\u001b[39m\n              \u001b[33mdata-testid\u001b[39m=\u001b[32m\"contact\"\u001b[39m\n              \u001b[33mhref\u001b[39m=\u001b[32m\"/contacts/6\"\u001b[39m\n            \u001b[36m>\u001b[39m\n              \u001b[0mMrs. Adrienne Rempel Jr.\u001b[0m\n              \u001b[0m \u001b[0m\n              \u001b[0mBosco\u001b[0m\n              \u001b[0m \u001b[0m\n            \u001b[36m</a>\u001b[39m\n          \u001b[36m</li>\u001b[39m\n          \u001b[36m<li>\u001b[39m\n            \u001b[36m<a\u001b[39m\n              \u001b[33mclass\u001b[39m=\u001b[32m\"\"\u001b[39m\n              \u001b[33mdata-testid\u001b[39m=\u001b[32m\"contact\"\u001b[39m\n              \u001b[33mhref\u001b[39m=\u001b[32m\"/contacts/8\"\u001b[39m\n            \u001b[36m>\u001b[39m\n              \u001b[0mInez Raynor\u001b[0m\n              \u001b[0m \u001b[0m\n              \u001b[0mToy\u001b[0m\n              \u001b[0m \u001b[0m\n            \u001b[36m</a>\u001b[39m\n          \u001b[36m</li>\u001b[39m\n          \u001b[36m<li>\u001b[39m\n            \u001b[36m<a\u001b[39m\n              \u001b[33mclass\u001b[39m=\u001b[32m\"\"\u001b[39m\n              \u001b[33mdata-testid\u001b[39m=\u001b[32m\"contact\"\u001b[39m\n              \u001b[33mhref\u001b[39m=\u001b[32m\"/contacts/9\"\u001b[39m\n            \u001b[36m>\u001b[39m\n              \u001b[0mJames Schumm\u001b[0m\n              \u001b[0m \u001b[0m\n              \u001b[0mWeimann\u001b[0m\n              \u001b[0m \u001b[0m\n            \u001b[36m</a>\u001b[39m\n          \u001b[36m</li>\u001b[39m\n          \u001b[36m<li>\u001b[39m\n            \u001b[36m<a\u001b[39m\n              \u001b[33mclass\u001b[39m=\u001b[32m\"\"\u001b[39m\n              \u001b[33mdata-testid\u001b[39m=\u001b[32m\"contact\"\u001b[39m\n              \u001b[33mhref\u001b[39m=\u001b[32m\"/contacts/10\"\u001b[39m\n            \u001b[36m>\u001b[39m\n              \u001b[0mClaudia Auer\u001b[0m\n              \u001b[0m \u001b[0m\n              \u001b[0mPredovic\u001b[0m\n              \u001b[0m \u001b[0m\n            \u001b[36m</a>\u001b[39m\n          \u001b[36m</li>\u001b[39m\n        \u001b[36m</ul>\u001b[39m\n      \u001b[36m</nav>\u001b[39m\n    \u001b[36m</div>\u001b[39m\n    \u001b[36m<div\u001b[39m\n      \u001b[33mid\u001b[39m=\u001b[32m\"detail\"\u001b[39m\n    \u001b[36m>\u001b[39m\n      \u001b[36m<p\u001b[39m\n        \u001b[33mid\u001b[39m=\u001b[32m\"zero-state\"\u001b[39m\n      \u001b[36m>\u001b[39m\n        \u001b[0mWelcome to WiTech Contacts\u001b[0m\n      \u001b[36m</p>\u001b[39m\n    \u001b[36m</div>\u001b[39m\n  \u001b[36m</div>\u001b[39m\n\u001b[36m</body>\u001b[39m"
           ],
           "location": {
-            "line": 75,
-            "column": 25
+            "line": 162,
+            "column": 27
           }
         },
         {
@@ -114,52 +84,34 @@
             ""
           ],
           "fullName": " Home Butonu Çalışıyor",
-          "status": "failed",
+          "status": "passed",
           "title": "Home Butonu Çalışıyor",
-          "duration": 5,
-          "failureMessages": [
-            "expected 'Once tanStackQueryi ekleyin ve useEff…' to be 'Implemented' // Object.is equality"
-          ],
-          "location": {
-            "line": 92,
-            "column": 25
-          }
+          "duration": 92,
+          "failureMessages": []
         },
         {
           "ancestorTitles": [
             ""
           ],
           "fullName": " Kullanıcı detaylarını gösteriyor",
-          "status": "failed",
+          "status": "passed",
           "title": "Kullanıcı detaylarını gösteriyor",
-          "duration": 6,
-          "failureMessages": [
-            "expected 'Once tanStackQueryi ekleyin ve useEff…' to be 'Implemented' // Object.is equality"
-          ],
-          "location": {
-            "line": 99,
-            "column": 25
-          }
+          "duration": 92,
+          "failureMessages": []
         },
         {
           "ancestorTitles": [
             ""
           ],
           "fullName": " Kullanıcıyı siliyor",
-          "status": "failed",
+          "status": "passed",
           "title": "Kullanıcıyı siliyor",
-          "duration": 6,
-          "failureMessages": [
-            "expected 'Once tanStackQueryi ekleyin ve useEff…' to be 'Implemented' // Object.is equality"
-          ],
-          "location": {
-            "line": 107,
-            "column": 25
-          }
+          "duration": 157,
+          "failureMessages": []
         }
       ],
-      "startTime": 1711666153448,
-      "endTime": 1711666153551,
+      "startTime": 1711672825876,
+      "endTime": 1711672828668,
       "status": "failed",
       "message": "",
       "name": "C:/Users/Fatih ÇAKMAK/Documents/GitHub/projeler/sprint10/sprint10 gün4 proje1/src/__tests__/index.test.jsx"
